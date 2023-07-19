@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="try.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header__border"></div>
+        <nav class="nav container">
+            <a href="try.html" class="nav__logo">
+                <img src="">
+                Pawsome Cats Shop
+            </a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="try.html" class="nav__link">
+                            <i class="ri-home-5-fill"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="try.html #about" class="nav__link">
+                            <i class="ri-award-fill"></i>
+                            <span>About</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="try.html #methods" class="nav__link">
+                            <i class="ri-compass-fill"></i>
+                            <span>Methods</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="try.html #testimonial" class="nav__link">
+                            <i class="ri-message-3-line"></i>
+                            <span>Testimonial</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="qwe.html" class="nav__link">
+                            <i class='bx bxs-store'></i>
+                            <span>Products</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="product section" id="product">
+        <div class="product__bg">
+        <div class="product__container container">
+            <h1 class="sections__title">
+                Choose our delicious and best products for your cats
+            </h1>
+
+            <ul class="product__filters">
+                <li class="product__item product__line active-product" data-filter=".delicacies">
+                    <h3 class="product__title">Cat Foods</h3>
+                    <span class="product__stock">9 products</span>
+                </li>
+
+                <li class="product__item product__line" data-filter=".coffee">
+                    <h3 class="product__title">Cat Litters</h3>
+                    <span class="product__stock">3 products</span>
+                </li>
+
+                <li class="product__item product__line" data-filter=".cake">
+                    <h3 class="product__title">Cat Beds</h3>
+                    <span class="product__stock">3 products</span>
+                </li>
+            </ul>
+
+            <div class="product__content grid">
+                <article class="product__cards delicacies">
+                    <div class="product__shape">
+                        <img src="dry.jpg" alt="" class="product__img">
+                    </div>
+
+                    <div class="product__data">
+                        <h2 class="product__price">$6.50</h2>
+                        <h3 class="product__name">Dry Food</h3>
+
+                        <button class="buttons product" id="product__button">
+                            <i class='bx bx-shopping-bag' onclick="validateLogin()"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product__cards delicacies">
+                    <div class="product__shape">
+                        <img src="dry2.jpg" alt="" class="product__img">
+                    </div>
+
+                    <div class="product__data">
+                        <h2 class="product__price">$6.75</h2>
+                        <h3 class="product__name">Dry Food</h3>
+
+                        <button class="buttons product" id="product__button">
+                            <i class='bx bx-shopping-bag' onclick="validateLogin()"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product__cards delicacies">
+                    <div class="product__shape">
+                        <img src="dry3.jpg" alt="" class="product__img">
+                    </div>
+
+                    <div class="product__data">
+                        <h2 class="product__price">$7.25</h2>
+                        <h3 class="product__name">Dry Food</h3>
+
+                        <button class="buttons product" id="product__button">
+                            <i class='bx bx-shopping-bag' onclick="validateLogin()"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product__cards delicacies">
+                    <div class="product__shape">
+                        <img src="wet.jpg" alt="" class="product__img">
+                    </div>
+
+                    <div class="product__data">
+                        <h2 class="product__price">$3.00</h2>
+                        <h3 class="product__name">Can Food</h3>
+
+                        <button class="buttons product" id="product__button">
+                            <i class='bx bx-shopping-bag' onclick="validateLogin()"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product__cards delicacies">
+                    <div class="product__shape">
+                        <img src="canned.jpg" alt="" class="product__img">
+                    </div>
+
+                    <div class="product__data">
+                        <h2 class="product__price">$3.25</h2>
+                        <h3 class="product__name">Can Food</h3>
+
+                        <button class="buttons product" id="product__button">
+                            <i class='bx bx-shopping-bag' onclick="validateLogin()"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product__cards delicacies">
+                    <div class="product__shape">
+                        <img src="canned2.jpg" alt="" class="product__img">
+                    </div>
+
+                    <div class="product__data">
+                        <h2 class="product__price">$3.50</h2>
+                        <h3 class="product__name">Can Food</h3>
+
+                        <button class="buttons product" id="product__button">
+                            <i class='bx bx-shopping-bag' onclick="validateLogin()"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product__cards delicacies">
+                    <div class="product__shape">
+                        <img src="med_1789.jpg" alt="" class="product__img">
+                    </div>
+
+                    <div class="product__data">
+                        <h2 class="product__price">$6.48</h2>
+                        <h3 class="product__name">Go Cat</h3>
+
+                        <button class="buttons product" id="product__button">
+                            <i class='bx bx-shopping-bag' onclick="validateLogin()"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product__cards delicacies">
+                    <div class="product__shape">
+                        <img src="zxc.jpg" alt="" class="product__img">
+                    </div>
+
+                    <div class="product__data">
+                        <h2 class="product__price">$6.90</h2>
+                        <h3 class="product__name">Juicy Chunks</h3>
+
+                        <button class="buttons product" id="product__button">
+                            <i class='bx bx-shopping-bag' onclick="validateLogin()"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product__cards delicacies">
+                    <div class="product__shape">
+                        <img src="asd.jpg" alt="" class="product__img">
+                    </div>
+
+                    <div class="product__data">
+                        <h2 class="product__price">$6.50</h2>
+                        <h3 class="product__name">PreVital</h3>
+
+                        <button class="buttons product" id="product__button">
+                            <i class='bx bx-shopping-bag' onclick="validateLogin()"></i>
+                        </button>
+                    </div>
+                </article>
+
+
+                <article class="product__cards coffee">
+                    <div class="product__shape">
+                        <img src="litters.jpg" alt="" class="product__img">
+                    </div>
+
+                    <div class="product__data">
+                        <h2 class="product__price">$0.70</h2>
+                        <h3 class="product__name">Cat Litter</h3>
+
+                        <button class="buttons product" id="product__button">
+                            <i class='bx bx-shopping-bag' onclick="validateLogin()"></i>
+                        </button>
+                    </div>
+                </article>
+
+
+                <article class="product__cards coffee">
+                    <div class="product__shape">
+                        <img src="litters2.jpg" alt="" class="product__img">
+                    </div>
+
+                    <div class="product__data">
+                        <h2 class="product__price">$0.90</h2>
+                        <h3 class="product__name">Cat Litter</h3>
+
+                        <button class="buttons product" id="product__button">
+                            <i class='bx bx-shopping-bag' onclick="validateLogin()"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product__cards coffee">
+                    <div class="product__shape">
+                        <img src="litters4_35.jpg" alt="" id="litters" class="product__img">
+                    </div>
+
+                    <div class="product__data cake">
+                        <h2 class="product__price">$1.25</h2>
+                        <h3 class="product__name">Cat Litter</h3>
+
+                        <button class="buttons product" id="product__button">
+                            <i class='bx bx-shopping-bag' onclick="validateLogin()"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product__cards cake">
+                    <div class="product__shape">
+                        <img src="bed.jpg" alt="" class="product__img">
+                    </div>
+
+                    <div class="product__data">
+                        <h2 class="product__price">$8.25</h2>
+                        <h3 class="product__name">Cat Bed</h3>
+
+                        <button class="buttons product" id="product__button">
+                            <i class='bx bx-shopping-bag' onclick="validateLogin()"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product__cards cake">
+                    <div class="product__shape">
+                        <img src="bed2.jpg" alt="" class="product__img">
+                    </div>
+
+                    <div class="product__data">
+                        <h2 class="product__price">$10.50</h2>
+                        <h3 class="product__name">Cat Bed</h3>
+
+                        <button class="buttons product" id="product__button">
+                            <i class='bx bx-shopping-bag' onclick="validateLogin()"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product__cards cake">
+                    <div class="product__shape">
+                        <img src="bed3.jpg" alt="" class="product__img">
+                    </div>
+
+                    <div class="product__data">
+                        <h2 class="product__price">$8.50</h2>
+                        <h3 class="product__name">Cat Bed</h3>
+
+                        <button class="buttons product" id="product__button">
+                            <i class='bx bx-shopping-bag' onclick="validateLogin()"></i>
+                        </button>
+                    </div>
+                </article>
+
+                
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="quality section" id="premium">
+            <div class="quality__bg">
+            <div class="quality__container container">
+                <h2 class="sections__title">
+                    We offer a better quality of house for you cats!
+                </h2>
+                <div class="quality__content grid">
+                    <div class="quality__images">
+                        <img src="house.jpg" alt="" class="quality__img-big">
+                        <img src="house2.jpg" alt="" class="quality__img-small">
+                    </div>
+                    <div class="quality__data">
+                        <h1 class="quality__title">
+                            Cat House
+                        </h1>
+                        <h2 class="quality__price">$20.99</h2>
+                        <span class="quality__special">Special Price</span>
+                        <p class="quality__description">
+                            We are confident with our products! That's why
+                            you will get the best quality of house for you cats!
+                            The house is made of the best quality of materials.
+                            You can buy it for <b>Special Price. </b>
+                        </p>
+                        
+                        <div class="quality__buttons">
+                            <button class="buttons" onclick="validateLogin()">
+                                Buy Now
+                            </button>  
+                            <a href="shop.html" class="quality__button">
+                                Go to Shop Products
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+    </section>
+    <script>
+        function validateLogin() {
+            window.location.assign("shop.html");
+        }
+      </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="mixitup.min.js"></script>
+    <script src=try.js></script>
+</body>
+</html>

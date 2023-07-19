@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="cats.css">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+        <title>Pawsome Cats</title>
+    </head>
+<body>
+
+    <header>
+        <h2 class="logo"><a href="index.html">Pawsome Cats</a></h2>
+        <nav class="navigation">
+            <a href="#" class="btnLogin-popup2">About</a>
+            <a href="anime.html">Trivia</a>
+            <a href="breed.html">Breeds</a>
+            <button class="btnLogin-popup">Login</button>
+            <button class="btnLogin-popup1">Signup</button>
+        </nav>
+    </header>
+    
+    <div class="wrapper3">
+        <span class="icon-close2">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <h2>About</h2><br>
+    <p>The cat (Felis catus) is a domestic species of small carnivorous mammal.<br> It is the only domesticated species in the family Felidae and is commonly<br> referred to as the domestic cat or house cat to distinguish it from the wild<br> members of the family. Cats are commonly kept as house pets but can <br>also be farm cats or feral cats; the feral cat ranges freely and avoids human<br> contact. Domestic cats are valued by humans for companionship and their<br> ability to kill vermin. About 60 cat breeds are recognized by various<br> cat registries.<br><br>
+
+        The cat is similar in anatomy to the other felid species:<br> it has a strong flexible body, quick reflexes, sharp teeth, <br>and retractable claws adapted to killing small prey like mice and rats.<br> Its night vision and sense of smell are well developed.<br> Cat communication includes vocalizations like meowing,<br> purring, trilling, hissing, growling, and grunting as well<br> as cat-specific body language. Although the cat is a social species,<br> it is a solitary hunter. As a predator, it is crepuscular,<br> i.e. most active at dawn and dusk.<br> It can hear sounds too faint or too high in frequency for human ears,<br> such as those made by mice and other small mammals.<br> It also secretes and perceives pheromones.</p>
+    </div>
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <div class="form-box_login">
+            <h2> Log In </h2>
+            <form action>
+                <div class="input-box">
+                    <span class="material-symbols-outlined">
+                        mail
+                        </span>
+                        <input type="mail" id="email" required>
+                    <label> Email </label>
+                    
+                </div>
+                <div class="input-box">
+                    <span class="material-symbols-outlined">
+                        lock
+                        </span>
+                        <input type="password" id="password" required>
+                    <label> Password </label>
+                    
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Remember Me</label>
+                    <a href="#"> Forgot Password ?</a>
+                </div>
+                <input type="button" value="Login" class="btn" onclick="validateLogin()">
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+            
+        </div>
+        
+        <div class="form-box_signup">
+            <h2> Sign up </h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="material-symbols-outlined">
+                        person
+                        </span>
+                    <input type="mail" id="color" required>
+                    <label> Username </label>
+                </div>
+                <div class="input-box">
+                    <span class="material-symbols-outlined">
+                        mail
+                        </span>
+                    <input type="mail" id="color" required>
+                    <label> Email </label>
+                </div>
+                <div class="input-box">
+                    <span class="material-symbols-outlined">
+                        lock
+                        </span>
+                    <input type="password" id="color" required>
+                    <label> Password </label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> I agree to the terms & conditions</label>
+                    
+                </div>
+                <button type="submit" class="btn"> Sign up </button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link">Log in</a></p>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <div class="wrapper2">
+        <span class="icon-close1">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <div class="form-box_login1">
+            <h2> Sign up </h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="material-symbols-outlined">
+                        person
+                        </span>
+                    <input type="mail" id="color" required>
+                    <label> Username </label>
+                </div>
+                <div class="input-box">
+                    <span class="material-symbols-outlined">
+                        mail
+                        </span>
+                    <input type="mail" id="color" required>
+                    <label> Email </label>
+                </div>
+                <div class="input-box">
+                    <span class="material-symbols-outlined">
+                        lock
+                        </span>
+                    <input type="password" id="color" required>
+                    <label> Password </label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> I agree to the terms & conditions</label>
+                   
+                </div>
+                <button type="submit" class="btn"> Sign up </button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="register-link1">Log In</a></p>
+                </div>
+            </form>
+            
+        </div>
+        
+        <div class="form-box_signup1">
+            <h2> Log In </h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="material-symbols-outlined">
+                        mail
+                        </span>
+                        <input type="mail" id="email1" required>
+                    <label> Email </label>
+                </div>
+                <div class="input-box">
+                    <span class="material-symbols-outlined">
+                        lock
+                        </span>
+                    <input type="password" id="password1" required>
+                    <label> Password </label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Remember Me</label>
+                    <a href="#"> Forgot Password ?</a>
+                    
+                </div>
+                <input type="button" value="Login" class="btn" onclick="validateLogin1()">
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link1">Register</a></p>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <script>
+        function validateLogin() {
+          var email = document.getElementById("email").value;
+          var password = document.getElementById("password").value;
+    
+         
+          if (email === "rhome@gmail.com" && password === "rhome123") {
+            alert("Login Successful!");
+            
+            window.location.assign("try.html");
+          } else {
+            alert("Invalid credentials. Please try again.");
+          }
+        }
+        function validateLogin1() {
+          var email = document.getElementById("email1").value;
+          var password = document.getElementById("password1").value;
+    
+         
+          if (email === "rhome@gmail.com" && password === "rhome123") {
+            alert("Login Successful!");
+            
+            window.location.assign("try.html");
+          } else {
+            alert("Invalid credentials. Please try again.");
+          }
+        }
+      </script>
+    <script src="cats.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
